@@ -8,6 +8,7 @@ func main() {
 	fmt.Println(countSubarrays([]int{-1, -4 , -1,4}))
 }
 
+//CountSubsarrays x1 + x3 = x2 / 2 
 func countSubarrays(nums []int) int {
 	var count int
 	if len(nums) < 3 {
